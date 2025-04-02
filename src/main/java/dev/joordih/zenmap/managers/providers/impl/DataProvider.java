@@ -1,0 +1,139 @@
+package dev.joordih.zenmap.managers.providers.impl;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import dev.joordih.zenmap.managers.providers.Provider;
+import dev.joordih.zenmap.managers.providers.ProviderParams;
+import dev.joordih.zenmap.managers.providers.ProviderPriority;
+import lombok.SneakyThrows;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
+import javax.net.ssl.*;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.security.SecureRandom;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+import java.util.concurrent.TimeUnit;
+
+@ProviderParams(
+    name = "Data scrapper",
+    priority = ProviderPriority.HIGH
+)
+@SuppressWarnings("all")
+public class DataProvider implements Provider {
+
+  private final OkHttpClient client;
+
+  public DataProvider() {
+    OkHttpClient.Builder builder = new OkHttpClient.Builder()
+        .connectTimeout(30, TimeUnit.SECONDS)
+        .readTimeout(30, TimeUnit.SECONDS)
+        .writeTimeout(30, TimeUnit.SECONDS);
+
+    try {
+      final TrustManager[] trustAllCerts = new TrustManager[]{
+          new X509TrustManager() {
+            @Override
+            public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+            }
+
+            @Override
+            public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+            }
+
+            @Override
+            public X509Certificate[] getAcceptedIssuers() {
+              return new X509Certificate[0];
+            }
+          }
+      };
+
+      final SSLContext sslContext = SSLContext.getInstance("TLS");
+      sslContext.init(null, trustAllCerts, new SecureRandom());
+
+      final SSLSocketFactory sslSocketFactory = sslContext.getSocketFactory();
+
+      builder.sslSocketFactory(sslSocketFactory, (X509TrustManager) trustAllCerts[0])
+          .hostnameVerifier((hostname, session) -> true);
+
+    } catch (Exception e) {
+      System.err.println("Error configurando SSL para el DataProvider: " + e.getMessage());
+      e.printStackTrace();
+    }
+
+    this.client = builder.build();
+  }
+
+  @Override
+  public void register() {
+    System.out.println("Iniciando descarga de datos...");
+
+    if (!downloadData("https://ideib.caib.es/adreces/rest/vies/07014")) {
+      System.out.println("Intentando con HTTP como alternativa...");
+      downloadData("http://ideib.caib.es/adreces/rest/vies/07014");
+    }
+  }
+
+  private boolean downloadData(String url) {
+    try {
+      Request request = new Request.Builder()
+          .url(url)
+          .get()
+          .build();
+
+      System.out.println("Conectando a: " + url);
+
+      try (Response response = client.newCall(request).execute()) {
+        if (!response.isSuccessful()) {
+          System.err.println("Error al descargar datos. Código: " + response.code());
+          return false;
+        }
+
+        String jsonData = this.prettyJson(response.body().string());
+        System.out.println("Datos descargados correctamente (" + jsonData.length() + " bytes)");
+
+        Path directoryPath = Paths.get("data");
+        if (!Files.exists(directoryPath)) {
+          Files.createDirectories(directoryPath);
+          System.out.println("Creado directorio: " + directoryPath);
+        }
+
+        Path filePath = directoryPath.resolve("data.json");
+        Files.write(filePath, jsonData.getBytes());
+        System.out.println("Datos guardados en: " + filePath.toAbsolutePath());
+
+        return true;
+      }
+    } catch (IOException e) {
+      System.err.println("Error de I/O al descargar datos: " + e.getMessage());
+      e.printStackTrace();
+      return false;
+    } catch (Exception e) {
+      System.err.println("Error general al descargar datos: " + e.getMessage());
+      e.printStackTrace();
+      return false;
+    }
+  }
+
+  public String prettyJson(String json) {
+    try {
+      ObjectMapper objectMapper = new ObjectMapper();
+      Object jsonObject = objectMapper.readValue(json, Object.class);
+      String prettyJson = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonObject);
+      return prettyJson;
+    } catch (Exception e) {
+      System.err.println("Error al formatear el JSON: " + e.getMessage());
+      e.printStackTrace();
+      return json;
+    }
+  }
+
+  @Override
+  public void unregister() {
+    System.out.println("DataProvider desregistrado");
+  }
+}
