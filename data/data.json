@@ -1,0 +1,3270 @@
+[ {
+  "id" : "70140000000",
+  "idIne" : "0701400743",
+  "nom" : "A",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000137",
+  "idIne" : "0701400001",
+  "nom" : "ALBA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000005",
+  "idIne" : "0701400008",
+  "nom" : "ALT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001676",
+  "idIne" : "-997",
+  "nom" : "ANTIC CAMÍ DES VIDRIER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001714",
+  "idIne" : "-997",
+  "nom" : "ANTIC DE SA TAFONA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000183",
+  "idIne" : "0701400010",
+  "nom" : "ANTONI MAURA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000010",
+  "idIne" : "0701400744",
+  "nom" : "B",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000011",
+  "idIne" : "0701400011",
+  "nom" : "BAIXADA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000012",
+  "idIne" : "0701400013",
+  "nom" : "BAPTISTA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001688",
+  "idIne" : "-997",
+  "nom" : "BASSA DES MOLÍ DEN TAFONA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000014",
+  "idIne" : "0701400745",
+  "nom" : "C",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "804000001708",
+  "idIne" : "-997",
+  "nom" : "CA NA GALIONA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000193",
+  "idIne" : "-997",
+  "nom" : "CALA LLITERAS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001717",
+  "idIne" : "-997",
+  "nom" : "CAMP DE N'AMIC",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001726",
+  "idIne" : "-997",
+  "nom" : "CAN BLANQUER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001674",
+  "idIne" : "-997",
+  "nom" : "CAN CARAGOL",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001736",
+  "idIne" : "-997",
+  "nom" : "CAN COMELLES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001706",
+  "idIne" : "-997",
+  "nom" : "CAN CRESTALLÓ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001725",
+  "idIne" : "-997",
+  "nom" : "CAN MIR",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001734",
+  "idIne" : "-997",
+  "nom" : "CAN PRATS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001730",
+  "idIne" : "-997",
+  "nom" : "CAN SALETES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001712",
+  "idIne" : "-997",
+  "nom" : "CANYERET",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000203",
+  "idIne" : "0701400523",
+  "nom" : "CAS BOMBU",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001737",
+  "idIne" : "-997",
+  "nom" : "CASES NOVES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000299",
+  "idIne" : "0701400021",
+  "nom" : "CENTRE",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000021",
+  "idIne" : "0701400022",
+  "nom" : "CERVANTES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001724",
+  "idIne" : "-997",
+  "nom" : "CIMENTERA DES GUITARRÓ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000024",
+  "idIne" : "0701400026",
+  "nom" : "CLAPERS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000425",
+  "idIne" : "-997",
+  "nom" : "CLOT DES GUIX",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001675",
+  "idIne" : "-997",
+  "nom" : "COLL DEL VIDRIER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000311",
+  "idIne" : "0701400712",
+  "nom" : "CONQUERIDOR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001710",
+  "idIne" : "-997",
+  "nom" : "CORRAL DES BOUS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000421",
+  "idIne" : "-997",
+  "nom" : "CREUETA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000027",
+  "idIne" : "0701400029",
+  "nom" : "CURT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000028",
+  "idIne" : "0701400746",
+  "nom" : "D",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000181",
+  "idIne" : "0701400002",
+  "nom" : "D'ALCALÁ GALIANO",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000029",
+  "idIne" : "0701400009",
+  "nom" : "D'AMÈRICA",
+  "tipusVia" : "AVINGUDA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000006",
+  "idIne" : "0701400592",
+  "nom" : "D'ARCÀDIA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000033",
+  "idIne" : "0701400628",
+  "nom" : "D'EIVISSA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000389",
+  "idIne" : "0701400059",
+  "nom" : "D'ELIONOR SERVERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001682",
+  "idIne" : "-997",
+  "nom" : "D'EN GARRIT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001698",
+  "idIne" : "-997",
+  "nom" : "D'EN MIQUEL PETIT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000140",
+  "idIne" : "0701400509",
+  "nom" : "D'EN SILVESTRE",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000333",
+  "idIne" : "0701400049",
+  "nom" : "D'HERNÁN CORTÉS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000334",
+  "idIne" : "0701400053",
+  "nom" : "D'ISAAC PERAL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000189",
+  "idIne" : "0701400012",
+  "nom" : "DE BALTASAR COVAS",
+  "tipusVia" : "TRAVESSIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001764",
+  "idIne" : "0701400474",
+  "nom" : "DE BELLAVISTA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000013",
+  "idIne" : "0701400016",
+  "nom" : "DE BUSTAMANTE",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001678",
+  "idIne" : "-997",
+  "nom" : "DE CA N'AGUSTÍ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001750",
+  "idIne" : "-997",
+  "nom" : "DE CALA AGULLA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000437",
+  "idIne" : "-997",
+  "nom" : "DE CALA AGULLA",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000191",
+  "idIne" : "0701400443",
+  "nom" : "DE CALA GAT",
+  "tipusVia" : "AVINGUDA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "804000001731",
+  "idIne" : "-997",
+  "nom" : "DE CALA MESQUIDA A CALA TORTA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "804000001741",
+  "idIne" : "-997",
+  "nom" : "DE CALA MOLTÓ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000194",
+  "idIne" : "0701400605",
+  "nom" : "DE CALA NAU",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000195",
+  "idIne" : "-997",
+  "nom" : "DE CAN BANDERA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001740",
+  "idIne" : "-997",
+  "nom" : "DE CAN BARRAQUETA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001691",
+  "idIne" : "-997",
+  "nom" : "DE CAN BIEL FERRIOL",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001696",
+  "idIne" : "-997",
+  "nom" : "DE CAN CANET",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001755",
+  "idIne" : "-997",
+  "nom" : "DE CAN CANTÓ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001753",
+  "idIne" : "-997",
+  "nom" : "DE CAN CAP",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001662",
+  "idIne" : "-997",
+  "nom" : "DE CAN CARDAIX",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000197",
+  "idIne" : "0701400680",
+  "nom" : "DE CAN CLIMENTÓ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "804000001625",
+  "idIne" : "-997",
+  "nom" : "DE CAN COLLETE",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001679",
+  "idIne" : "-997",
+  "nom" : "DE CAN COVES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001695",
+  "idIne" : "-997",
+  "nom" : "DE CAN CREMAT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001629",
+  "idIne" : "-997",
+  "nom" : "DE CAN DEIÀ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001759",
+  "idIne" : "-997",
+  "nom" : "DE CAN GENER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000198",
+  "idIne" : "0701400054",
+  "nom" : "DE CAN MELIS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001760",
+  "idIne" : "-997",
+  "nom" : "DE CAN MELIS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001680",
+  "idIne" : "-997",
+  "nom" : "DE CAN MOLINET",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001699",
+  "idIne" : "-997",
+  "nom" : "DE CAN MÓRA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001627",
+  "idIne" : "-997",
+  "nom" : "DE CAN PA AMB OLI",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000199",
+  "idIne" : "0701400604",
+  "nom" : "DE CAN PATILLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000436",
+  "idIne" : "-997",
+  "nom" : "DE CAN PATILLA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001648",
+  "idIne" : "-997",
+  "nom" : "DE CAN PAU",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001628",
+  "idIne" : "-997",
+  "nom" : "DE CAN PEDRERA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001747",
+  "idIne" : "-997",
+  "nom" : "DE CAN PERE ANTONI",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001681",
+  "idIne" : "-997",
+  "nom" : "DE CAN PETIT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001669",
+  "idIne" : "-997",
+  "nom" : "DE CAN PISCA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001686",
+  "idIne" : "-997",
+  "nom" : "DE CAN PLANETES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001690",
+  "idIne" : "-997",
+  "nom" : "DE CAN POLET",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001626",
+  "idIne" : "-997",
+  "nom" : "DE CAN PROHENS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001693",
+  "idIne" : "-997",
+  "nom" : "DE CAN SALEM",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001685",
+  "idIne" : "-997",
+  "nom" : "DE CAN SOPA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "604000010072",
+  "idIne" : "-997",
+  "nom" : "DE CANYAMEL",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000409",
+  "idIne" : "0701400445",
+  "nom" : "DE CANYAMEL",
+  "tipusVia" : "AVINGUDA",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "804000001677",
+  "idIne" : "-997",
+  "nom" : "DE CAS BEATO",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001694",
+  "idIne" : "-997",
+  "nom" : "DE CAS JULIANS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000022",
+  "idIne" : "0701400023",
+  "nom" : "DE CHURRUCA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000004",
+  "idIne" : "0701400025",
+  "nom" : "DE CIUTAT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000025",
+  "idIne" : "0701400028",
+  "nom" : "DE COLOM",
+  "tipusVia" : "PASSEIG",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000206",
+  "idIne" : "0701400471",
+  "nom" : "DE COSTA LLOBERA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000329",
+  "idIne" : "0701400641",
+  "nom" : "DE FELIU MOREY AMENGUAL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000428",
+  "idIne" : "0701400644",
+  "nom" : "DE JAUME I",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000396",
+  "idIne" : "0701400632",
+  "nom" : "DE JAUME II",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000386",
+  "idIne" : "0701400418",
+  "nom" : "DE JOAN CARLES I",
+  "tipusVia" : "AUTOVIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000340",
+  "idIne" : "0701400057",
+  "nom" : "DE JUAN SEBASTIAN ELCANO",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000207",
+  "idIne" : "0701400631",
+  "nom" : "DE L'AGRÓ",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000215",
+  "idIne" : "0701400525",
+  "nom" : "DE L'ÀGUILA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000002",
+  "idIne" : "0701400431",
+  "nom" : "DE L'AGULLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000182",
+  "idIne" : "0701400004",
+  "nom" : "DE L'ALMIRALL CERVERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000210",
+  "idIne" : "0701400630",
+  "nom" : "DE L'ARBRE",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000418",
+  "idIne" : "-997",
+  "nom" : "DE L'ARENGADA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000184",
+  "idIne" : "0701400422",
+  "nom" : "DE L'ARQUITECTE ALOMAR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000053",
+  "idIne" : "0701400739",
+  "nom" : "DE L'EMBAT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000054",
+  "idIne" : "0701400495",
+  "nom" : "DE L'EMBOTELLADORA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Font de sa Cala"
+}, {
+  "id" : "70140000055",
+  "idIne" : "0701400051",
+  "nom" : "DE L'ESGLÉSIA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000218",
+  "idIne" : "0701400671",
+  "nom" : "DE L'ESPARRALL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000211",
+  "idIne" : "0701400479",
+  "nom" : "DE L'ESPERANÇA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000036",
+  "idIne" : "0701400711",
+  "nom" : "DE L'EST",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000056",
+  "idIne" : "0701400707",
+  "nom" : "DE L'ESTEPA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000213",
+  "idIne" : "0701400545",
+  "nom" : "DE L'ESTORNELL",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000057",
+  "idIne" : "0701400041",
+  "nom" : "DE L'ESTRELLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000119",
+  "idIne" : "0701400079",
+  "nom" : "DE L'OEST",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000411",
+  "idIne" : "-997",
+  "nom" : "DE L'OLIVERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000120",
+  "idIne" : "0701400462",
+  "nom" : "DE L'OLLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000058",
+  "idIne" : "0701400058",
+  "nom" : "DE L'ORIENT",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000214",
+  "idIne" : "0701400538",
+  "nom" : "DE L'ORONETA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000435",
+  "idIne" : "0701400635",
+  "nom" : "DE L'ULLASTRE",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000188",
+  "idIne" : "0701400714",
+  "nom" : "DE LA BAIXADA DE NA TACONERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000016",
+  "idIne" : "0701400652",
+  "nom" : "DE LA CAMAMIL·LERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000413",
+  "idIne" : "0701400446",
+  "nom" : "DE LA CONSTITUCIÓ",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000216",
+  "idIne" : "0701400517",
+  "nom" : "DE LA COSTA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "804000001702",
+  "idIne" : "-997",
+  "nom" : "DE LA COVA DELS CARDS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001660",
+  "idIne" : "-997",
+  "nom" : "DE LA COVA DES CINGLE",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "804000001645",
+  "idIne" : "-997",
+  "nom" : "DE LA COVA NEGRA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000403",
+  "idIne" : "0701400686",
+  "nom" : "DE LA FARIGOLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000364",
+  "idIne" : "0701400044",
+  "nom" : "DE LA FONT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000220",
+  "idIne" : "-997",
+  "nom" : "DE LA GARLANDA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000046",
+  "idIne" : "0701400585",
+  "nom" : "DE LA GAVINA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000049",
+  "idIne" : "0701400708",
+  "nom" : "DE LA GINESTA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000222",
+  "idIne" : "0701400540",
+  "nom" : "DE LA LIRA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000065",
+  "idIne" : "0701400048",
+  "nom" : "DE LA LLUM",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000066",
+  "idIne" : "0701400695",
+  "nom" : "DE LA LUZ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000224",
+  "idIne" : "0701400065",
+  "nom" : "DE LA MAR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001646",
+  "idIne" : "-997",
+  "nom" : "DE LA MAR DE SON BESSÓ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001649",
+  "idIne" : "-997",
+  "nom" : "DE LA MAR DE SON FAVAR",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000102",
+  "idIne" : "0701400491",
+  "nom" : "DE LA MARINA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000419",
+  "idIne" : "0701400673",
+  "nom" : "DE LA MUSSOLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000341",
+  "idIne" : "0701400081",
+  "nom" : "DE LA PAU",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000252",
+  "idIne" : "0701400086",
+  "nom" : "DE LA PLETA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000110",
+  "idIne" : "0701400677",
+  "nom" : "DE LA RAJADA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000420",
+  "idIne" : "0701400672",
+  "nom" : "DE LA SALPA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000139",
+  "idIne" : "0701400687",
+  "nom" : "DE LA SILVANA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000352",
+  "idIne" : "0701400116",
+  "nom" : "DE LA VELLETA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000175",
+  "idIne" : "0701400710",
+  "nom" : "DE LA XERNA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000230",
+  "idIne" : "0701400473",
+  "nom" : "DE LES CALES",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "804000001752",
+  "idIne" : "-997",
+  "nom" : "DE LES CASES DES COLL D'OS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000227",
+  "idIne" : "0701400036",
+  "nom" : "DE LES COVES",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000223",
+  "idIne" : "0701400045",
+  "nom" : "DE LES DONES DE LA LLATA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000359",
+  "idIne" : "0701400092",
+  "nom" : "DE LES DONES DE LA MAR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000228",
+  "idIne" : "0701400428",
+  "nom" : "DE LES DONZELLES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000037",
+  "idIne" : "0701400655",
+  "nom" : "DE LES FADES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000261",
+  "idIne" : "0701400043",
+  "nom" : "DE LES FLORS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000264",
+  "idIne" : "0701400073",
+  "nom" : "DE LES MONGES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000231",
+  "idIne" : "0701400513",
+  "nom" : "DE LES MUSES",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000115",
+  "idIne" : "0701400076",
+  "nom" : "DE LES NEREIDES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000233",
+  "idIne" : "0701400541",
+  "nom" : "DE LES PALMERES",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000122",
+  "idIne" : "0701400078",
+  "nom" : "DE LES PENYES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000355",
+  "idIne" : "-997",
+  "nom" : "DE LES PENYES JERÒNIES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000234",
+  "idIne" : "0701400703",
+  "nom" : "DE LES SIRENES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000099",
+  "idIne" : "0701400062",
+  "nom" : "DE MAGALLANES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000101",
+  "idIne" : "0701400064",
+  "nom" : "DE MALLORCA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000208",
+  "idIne" : "0701400543",
+  "nom" : "DE MART",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000412",
+  "idIne" : "0701400637",
+  "nom" : "DE MATAPOLL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000104",
+  "idIne" : "0701400614",
+  "nom" : "DE MELESIGENI",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000353",
+  "idIne" : "0701400068",
+  "nom" : "DE MÉNDEZ NÚÑEZ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000105",
+  "idIne" : "0701400069",
+  "nom" : "DE MENORCA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000106",
+  "idIne" : "0701400071",
+  "nom" : "DE MESTRAL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000309",
+  "idIne" : "0701400497",
+  "nom" : "DE MESTRE VICENÇ NADAL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000109",
+  "idIne" : "0701400075",
+  "nom" : "DE MONTURIOL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000343",
+  "idIne" : "0701400726",
+  "nom" : "DE MOSSÈN ANTONI MARIA ALCOVER",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001650",
+  "idIne" : "-997",
+  "nom" : "DE N'AGUAIT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000003",
+  "idIne" : "0701400564",
+  "nom" : "DE N'ALADERN",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000112",
+  "idIne" : "0701400654",
+  "nom" : "DE N'ANYANA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000035",
+  "idIne" : "0701400040",
+  "nom" : "DE N'ESPARRAGUERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001638",
+  "idIne" : "-997",
+  "nom" : "DE N'ISIDRO",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001732",
+  "idIne" : "-997",
+  "nom" : "DE NA BAGASSA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000235",
+  "idIne" : "0701400705",
+  "nom" : "DE NA FELLONA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000236",
+  "idIne" : "0701400105",
+  "nom" : "DE NA FERRADURA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000348",
+  "idIne" : "0701400500",
+  "nom" : "DE NA FORANA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000430",
+  "idIne" : "0701400629",
+  "nom" : "DE NA GAMBUSINA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001633",
+  "idIne" : "-997",
+  "nom" : "DE NA JOANILLES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000237",
+  "idIne" : "0701400542",
+  "nom" : "DE NA JORDI",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000238",
+  "idIne" : "-997",
+  "nom" : "DE NA LLARGA",
+  "tipusVia" : "PASSATGE",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000063",
+  "idIne" : "0701400741",
+  "nom" : "DE NA LLITERES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "804000001692",
+  "idIne" : "-997",
+  "nom" : "DE NA MAIANS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001634",
+  "idIne" : "-997",
+  "nom" : "DE NA MARXANDA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001632",
+  "idIne" : "-997",
+  "nom" : "DE NA MARXANDA DES SURER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001745",
+  "idIne" : "-997",
+  "nom" : "DE NA PINARET",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001762",
+  "idIne" : "-997",
+  "nom" : "DE NA ROCA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000239",
+  "idIne" : "0701400728",
+  "nom" : "DE NA RUIXAMANTELLS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000113",
+  "idIne" : "0701400427",
+  "nom" : "DE NEPTÚ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000118",
+  "idIne" : "0701400408",
+  "nom" : "DE NUREDDUNA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000356",
+  "idIne" : "0701400640",
+  "nom" : "DE PERE FERRER",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000125",
+  "idIne" : "0701400084",
+  "nom" : "DE PIZARRO",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001661",
+  "idIne" : "-997",
+  "nom" : "DE PULA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000241",
+  "idIne" : "0701400522",
+  "nom" : "DE S'ABEURADA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000135",
+  "idIne" : "0701400039",
+  "nom" : "DE S'ALZINAR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000209",
+  "idIne" : "0701400656",
+  "nom" : "DE S'ANFÓS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "70140000136",
+  "idIne" : "0701400548",
+  "nom" : "DE S'ARBOÇAR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "70140000398",
+  "idIne" : "0701400662",
+  "nom" : "DE S'ARBOCERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000007",
+  "idIne" : "0701400666",
+  "nom" : "DE S'ARGELAGA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000052",
+  "idIne" : "0701400584",
+  "nom" : "DE S'ARITJA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000008",
+  "idIne" : "0701400571",
+  "nom" : "DE S'ARRACER",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000242",
+  "idIne" : "0701400724",
+  "nom" : "DE S'ERMITÀ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000244",
+  "idIne" : "0701400066",
+  "nom" : "DE S'ESCORXADOR VELL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000406",
+  "idIne" : "0701400735",
+  "nom" : "DE S'ESCULL",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000362",
+  "idIne" : "-997",
+  "nom" : "DE S'HERBA-SANA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001637",
+  "idIne" : "-997",
+  "nom" : "DE S'HERETAT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001757",
+  "idIne" : "-997",
+  "nom" : "DE S'HORTA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001748",
+  "idIne" : "-997",
+  "nom" : "DE S'ULLAL",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001657",
+  "idIne" : "-997",
+  "nom" : "DE SA CALA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "70140000327",
+  "idIne" : "-997",
+  "nom" : "DE SA CALA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "804000001659",
+  "idIne" : "-997",
+  "nom" : "DE SA CALA A SON CABILA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001640",
+  "idIne" : "-997",
+  "nom" : "DE SA CANOVA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001655",
+  "idIne" : "-997",
+  "nom" : "DE SA COMA D'EN CANOVES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "804000001651",
+  "idIne" : "-997",
+  "nom" : "DE SA COMA DE SES ABELLES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001656",
+  "idIne" : "-997",
+  "nom" : "DE SA COMA DES GARBALLÓ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000009",
+  "idIne" : "0701400593",
+  "nom" : "DE SA COMASSA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000246",
+  "idIne" : "0701400692",
+  "nom" : "DE SA COSSIADA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "804000001697",
+  "idIne" : "-997",
+  "nom" : "DE SA CREU VELLA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000391",
+  "idIne" : "0701400669",
+  "nom" : "DE SA DONZELLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000038",
+  "idIne" : "0701400636",
+  "nom" : "DE SA FALGUERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "804000001700",
+  "idIne" : "-997",
+  "nom" : "DE SA FONT DE NA MATEVA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000248",
+  "idIne" : "0701400645",
+  "nom" : "DE SA GATOVA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000434",
+  "idIne" : "0701400649",
+  "nom" : "DE SA LLAMPUGA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "70140000225",
+  "idIne" : "0701400074",
+  "nom" : "DE SA MUNTANYA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000249",
+  "idIne" : "-997",
+  "nom" : "DE SA MURTA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000350",
+  "idIne" : "0701400664",
+  "nom" : "DE SA MURTA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000336",
+  "idIne" : "0701400451",
+  "nom" : "DE SA PEDRUSCADA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000365",
+  "idIne" : "0701400620",
+  "nom" : "DE SA REGANA BLAVA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000366",
+  "idIne" : "0701400561",
+  "nom" : "DE SA ROTETA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000253",
+  "idIne" : "0701400464",
+  "nom" : "DE SA SERRETA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000138",
+  "idIne" : "0701400573",
+  "nom" : "DE SA SERVIOLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000382",
+  "idIne" : "0701400112",
+  "nom" : "DE SA TAFONA NOVA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000166",
+  "idIne" : "0701400619",
+  "nom" : "DE SA TEULERA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000254",
+  "idIne" : "0701400658",
+  "nom" : "DE SA TONYINA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "70140000367",
+  "idIne" : "0701400117",
+  "nom" : "DE SA VINYA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000368",
+  "idIne" : "0701400521",
+  "nom" : "DE SA VOLTA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000374",
+  "idIne" : "0701400643",
+  "nom" : "DE SANÇ I",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000369",
+  "idIne" : "0701400096",
+  "nom" : "DE SANT ANDREU",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001758",
+  "idIne" : "-997",
+  "nom" : "DE SES ARGILES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000257",
+  "idIne" : "0701400465",
+  "nom" : "DE SES ATZAVARES",
+  "tipusVia" : "PASSEIG",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "804000001733",
+  "idIne" : "-997",
+  "nom" : "DE SES COSTELLADES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000259",
+  "idIne" : "0701400496",
+  "nom" : "DE SES COVES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000426",
+  "idIne" : "0701400530",
+  "nom" : "DE SES COVES DE S'ERMITÀ",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000260",
+  "idIne" : "0701400534",
+  "nom" : "DE SES DONES D'AIGUA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000262",
+  "idIne" : "0701400461",
+  "nom" : "DE SES LLEGÍTIMES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000263",
+  "idIne" : "0701400701",
+  "nom" : "DE SES MATES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000414",
+  "idIne" : "0701400659",
+  "nom" : "DE SES OBLADES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "70140000265",
+  "idIne" : "0701400615",
+  "nom" : "DE SES PEDRERES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000397",
+  "idIne" : "0701400415",
+  "nom" : "DE SES PESQUERETES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "70140000267",
+  "idIne" : "0701400466",
+  "nom" : "DE SES ROGES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000377",
+  "idIne" : "0701400095",
+  "nom" : "DE SES ROSES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001664",
+  "idIne" : "-997",
+  "nom" : "DE SO NA MOIANA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001641",
+  "idIne" : "-997",
+  "nom" : "DE SON BESSÓ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000270",
+  "idIne" : "0701400587",
+  "nom" : "DE SON BESSÓ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "804000001658",
+  "idIne" : "-997",
+  "nom" : "DE SON CABILA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "804000001671",
+  "idIne" : "-997",
+  "nom" : "DE SON FEBRER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001665",
+  "idIne" : "-997",
+  "nom" : "DE SON FONT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001663",
+  "idIne" : "-997",
+  "nom" : "DE SON FONT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000379",
+  "idIne" : "0701400109",
+  "nom" : "DE SON GARGORI",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000395",
+  "idIne" : "0701400003",
+  "nom" : "DE SON MAGDALÈ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000380",
+  "idIne" : "0701400110",
+  "nom" : "DE SON MOLL",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000381",
+  "idIne" : "0701400562",
+  "nom" : "DE SON POCAPALLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001636",
+  "idIne" : "-997",
+  "nom" : "DE SON TALENT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000168",
+  "idIne" : "0701400439",
+  "nom" : "DE TRAMUNTANA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000410",
+  "idIne" : "0701400704",
+  "nom" : "DE VENUS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000172",
+  "idIne" : "0701400440",
+  "nom" : "DE VISTABELLA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000358",
+  "idIne" : "0701400660",
+  "nom" : "DE XUCLAMEL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000190",
+  "idIne" : "0701400015",
+  "nom" : "DEL BON PASSEIG",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000272",
+  "idIne" : "0701400499",
+  "nom" : "DEL BOSC",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000200",
+  "idIne" : "0701400729",
+  "nom" : "DEL CAMP ROIG",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Polígon Industrial de Capdepera"
+}, {
+  "id" : "70140000201",
+  "idIne" : "0701400516",
+  "nom" : "DEL CAP ROIG",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "70140000019",
+  "idIne" : "0701400020",
+  "nom" : "DEL CASTELL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000204",
+  "idIne" : "0701400581",
+  "nom" : "DEL CAVALL MARÍ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000274",
+  "idIne" : "0701400537",
+  "nom" : "DEL CIGNE",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000205",
+  "idIne" : "0701400700",
+  "nom" : "DEL CLOT DE SA GRAVA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000268",
+  "idIne" : "0701400487",
+  "nom" : "DEL CLOT GRAN",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000433",
+  "idIne" : "0701400455",
+  "nom" : "DEL COLL D'OS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000278",
+  "idIne" : "0701400528",
+  "nom" : "DEL CÒNDOR",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000276",
+  "idIne" : "0701400529",
+  "nom" : "DEL CORB MARÍ",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000325",
+  "idIne" : "0701400038",
+  "nom" : "DEL DOCTOR FLEMING",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000031",
+  "idIne" : "0701400512",
+  "nom" : "DEL DOFÍ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000279",
+  "idIne" : "0701400539",
+  "nom" : "DEL FALCÓ",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000039",
+  "idIne" : "0701400042",
+  "nom" : "DEL FLOREAL",
+  "tipusVia" : "AVINGUDA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000041",
+  "idIne" : "0701400410",
+  "nom" : "DEL FONDAL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "70140000042",
+  "idIne" : "0701400050",
+  "nom" : "DEL FONDO",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000281",
+  "idIne" : "0701400627",
+  "nom" : "DEL FONER",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000330",
+  "idIne" : "0701400609",
+  "nom" : "DEL FONOLL MARÍ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000047",
+  "idIne" : "0701400633",
+  "nom" : "DEL GESSAMÍ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000051",
+  "idIne" : "0701400682",
+  "nom" : "DEL GREGAL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000282",
+  "idIne" : "0701400472",
+  "nom" : "DEL JERARCA",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000060",
+  "idIne" : "0701400685",
+  "nom" : "DEL LLEBEIG",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000180",
+  "idIne" : "0701400653",
+  "nom" : "DEL LLEVANT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000294",
+  "idIne" : "0701400448",
+  "nom" : "DEL MEDITERRANI",
+  "tipusVia" : "AVINGUDA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000431",
+  "idIne" : "0701400476",
+  "nom" : "DEL MERCAT",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000107",
+  "idIne" : "0701400067",
+  "nom" : "DEL MIGDIA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000342",
+  "idIne" : "0701400725",
+  "nom" : "DEL MOLÍ DE CAL REI",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "804000001689",
+  "idIne" : "-997",
+  "nom" : "DEL MOLÍ DEN LLUQUET",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000116",
+  "idIne" : "0701400077",
+  "nom" : "DEL NORD",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000123",
+  "idIne" : "0701400586",
+  "nom" : "DEL PINARET",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000124",
+  "idIne" : "0701400083",
+  "nom" : "DEL PINZÓN",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000402",
+  "idIne" : "-997",
+  "nom" : "DEL ROMANÍ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000141",
+  "idIne" : "0701400103",
+  "nom" : "DEL SIMUN",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000144",
+  "idIne" : "0701400111",
+  "nom" : "DEL SUD",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000321",
+  "idIne" : "0701400544",
+  "nom" : "DEL TALAIOT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000167",
+  "idIne" : "-997",
+  "nom" : "DEL TOMIR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000376",
+  "idIne" : "0701400719",
+  "nom" : "DEL TORRENT",
+  "tipusVia" : "CAMINOI",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000169",
+  "idIne" : "0701400114",
+  "nom" : "DEL TRITÓ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000283",
+  "idIne" : "0701400488",
+  "nom" : "DEL VOLTOR",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000174",
+  "idIne" : "0701400683",
+  "nom" : "DEL XALOC",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000393",
+  "idIne" : "0701400738",
+  "nom" : "DELS ALBELLONS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000284",
+  "idIne" : "0701400526",
+  "nom" : "DELS ARQUERS",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000285",
+  "idIne" : "0701400536",
+  "nom" : "DELS BALADRES",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000287",
+  "idIne" : "0701400527",
+  "nom" : "DELS COLOMS",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000288",
+  "idIne" : "0701400583",
+  "nom" : "DELS CRANCS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000388",
+  "idIne" : "0701400657",
+  "nom" : "DELS ESCARS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "70140000289",
+  "idIne" : "0701400723",
+  "nom" : "DELS FERRERS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Polígon Industrial de Capdepera"
+}, {
+  "id" : "70140000305",
+  "idIne" : "0701400715",
+  "nom" : "DELS GABELLINS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000121",
+  "idIne" : "0701400718",
+  "nom" : "DELS GARBALLONS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "70140000290",
+  "idIne" : "0701400535",
+  "nom" : "DELS GERANIS",
+  "tipusVia" : "VIA",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Costa de Canyamel"
+}, {
+  "id" : "70140000291",
+  "idIne" : "0701400037",
+  "nom" : "DELS MARINERS",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000292",
+  "idIne" : "0701400616",
+  "nom" : "DELS PINS",
+  "tipusVia" : "AVINGUDA",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "70140000240",
+  "idIne" : "0701400702",
+  "nom" : "DELS PINS DE SES VEGUES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "804000001624",
+  "idIne" : "-997",
+  "nom" : "DELS PRATS DE CAN DEIÀ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000361",
+  "idIne" : "0701400094",
+  "nom" : "DELS REIS CATÒLICS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000133",
+  "idIne" : "0701400518",
+  "nom" : "DELS ROMANINS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000375",
+  "idIne" : "0701400100",
+  "nom" : "DELS SEGADORS GABELLINS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001687",
+  "idIne" : "-997",
+  "nom" : "DES BALADRE",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000296",
+  "idIne" : "0701400610",
+  "nom" : "DES BASTIÓ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000286",
+  "idIne" : "0701400580",
+  "nom" : "DES BAVERONS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "70140000273",
+  "idIne" : "0701400691",
+  "nom" : "DES BRUC",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000297",
+  "idIne" : "0701400599",
+  "nom" : "DES BUFADOR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000416",
+  "idIne" : "0701400501",
+  "nom" : "DES CALÓ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "804000001652",
+  "idIne" : "-997",
+  "nom" : "DES CALÓ DES BEATO",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "804000001701",
+  "idIne" : "-997",
+  "nom" : "DES CAMP DES CARDS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001643",
+  "idIne" : "-997",
+  "nom" : "DES CAMP MITJÀ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000298",
+  "idIne" : "0701400432",
+  "nom" : "DES CAMPET",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001670",
+  "idIne" : "-997",
+  "nom" : "DES CAMPS DES IGUALS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000202",
+  "idIne" : "0701400736",
+  "nom" : "DES CAP VERMELL",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "70140000020",
+  "idIne" : "0701400019",
+  "nom" : "DES CASTELLET",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000408",
+  "idIne" : "-997",
+  "nom" : "DES CASTELLET",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000300",
+  "idIne" : "-997",
+  "nom" : "DES CINGLE",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "804000001644",
+  "idIne" : "-997",
+  "nom" : "DES CLAPER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001668",
+  "idIne" : "-997",
+  "nom" : "DES CLAPERÀS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001667",
+  "idIne" : "-997",
+  "nom" : "DES CLAPERÀS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001631",
+  "idIne" : "-997",
+  "nom" : "DES CLO N'ANELL",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001635",
+  "idIne" : "-997",
+  "nom" : "DES CLOTAL",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000301",
+  "idIne" : "0701400244",
+  "nom" : "DES COCONAR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000302",
+  "idIne" : "0701400027",
+  "nom" : "DES COL·LEGI",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001742",
+  "idIne" : "-997",
+  "nom" : "DES COLL DE MARINA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000026",
+  "idIne" : "0701400737",
+  "nom" : "DES CONRADORS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Polígon Industrial de Capdepera"
+}, {
+  "id" : "70140000401",
+  "idIne" : "0701400598",
+  "nom" : "DES FAR",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000303",
+  "idIne" : "0701400005",
+  "nom" : "DES FARALLÓ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001761",
+  "idIne" : "-997",
+  "nom" : "DES FIGUERAL",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000304",
+  "idIne" : "0701400642",
+  "nom" : "DES FIGUERAL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000043",
+  "idIne" : "0701400734",
+  "nom" : "DES FUSTERS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Polígon Industrial de Capdepera"
+}, {
+  "id" : "70140000307",
+  "idIne" : "0701400591",
+  "nom" : "DES GARROVERS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Son Moll"
+}, {
+  "id" : "70140000048",
+  "idIne" : "0701400665",
+  "nom" : "DES GINEBRÓ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000308",
+  "idIne" : "0701400678",
+  "nom" : "DES LLEVAMANS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001642",
+  "idIne" : "-997",
+  "nom" : "DES MITJÀ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001763",
+  "idIne" : "-997",
+  "nom" : "DES MOLINOT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000310",
+  "idIne" : "0701400072",
+  "nom" : "DES MOLINS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000339",
+  "idIne" : "0701400670",
+  "nom" : "DES MOLL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000108",
+  "idIne" : "0701400740",
+  "nom" : "DES MOLL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000432",
+  "idIne" : "0701400716",
+  "nom" : "DES MOLLET DE SA PEDRUSCADA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000312",
+  "idIne" : "0701400550",
+  "nom" : "DES MORRÀS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "70140000404",
+  "idIne" : "0701400722",
+  "nom" : "DES PELATS",
+  "tipusVia" : "PASSATGE",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "804000001756",
+  "idIne" : "-997",
+  "nom" : "DES PI DE S'HORTA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000357",
+  "idIne" : "0701400085",
+  "nom" : "DES PLA D'EN COSSET",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001739",
+  "idIne" : "-997",
+  "nom" : "DES PONT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000387",
+  "idIne" : "0701400088",
+  "nom" : "DES PORT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000314",
+  "idIne" : "0701400089",
+  "nom" : "DES POU",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000129",
+  "idIne" : "0701400696",
+  "nom" : "DES PRINCIPAL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000131",
+  "idIne" : "0701400449",
+  "nom" : "DES PROVENÇALS",
+  "tipusVia" : "AVINGUDA",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "70140000315",
+  "idIne" : "0701400732",
+  "nom" : "DES PUIG D'EN PERE",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "804000001746",
+  "idIne" : "-997",
+  "nom" : "DES PUIG DE NA NOFRE",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000417",
+  "idIne" : "0701400731",
+  "nom" : "DES PUIG NEGRE",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Font de sa Cala"
+}, {
+  "id" : "804000001653",
+  "idIne" : "-997",
+  "nom" : "DES PUIG SEGUER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001718",
+  "idIne" : "-997",
+  "nom" : "DES RAJOLÍ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000316",
+  "idIne" : "0701400675",
+  "nom" : "DES RAP",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000318",
+  "idIne" : "0701400733",
+  "nom" : "DES RAVELLAR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000319",
+  "idIne" : "0701400385",
+  "nom" : "DES REGUERÓ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000320",
+  "idIne" : "0701400519",
+  "nom" : "DES SECRET",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000392",
+  "idIne" : "0701400668",
+  "nom" : "DES SERRÀ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "70140000142",
+  "idIne" : "0701400106",
+  "nom" : "DES SITJAR",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000399",
+  "idIne" : "0701400424",
+  "nom" : "DES TAMARELLS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001743",
+  "idIne" : "-997",
+  "nom" : "DES TELÈGRAF",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000427",
+  "idIne" : "0701400681",
+  "nom" : "DES TEM",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000328",
+  "idIne" : "0701400520",
+  "nom" : "DES TUDONS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "70140000322",
+  "idIne" : "0701400549",
+  "nom" : "DES TURONS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "70140000383",
+  "idIne" : "0701400551",
+  "nom" : "DES VELLMARÍ",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "es Provençals"
+}, {
+  "id" : "70140000170",
+  "idIne" : "0701400588",
+  "nom" : "DES VERDEROL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+}, {
+  "id" : "804000001684",
+  "idIne" : "-997",
+  "nom" : "DES VIDRIER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000171",
+  "idIne" : "0701400689",
+  "nom" : "DES VINYET",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000176",
+  "idIne" : "0701400663",
+  "nom" : "DES XIPRELL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000032",
+  "idIne" : "0701400747",
+  "nom" : "E",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "804000001749",
+  "idIne" : "-997",
+  "nom" : "EN ROIG",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000415",
+  "idIne" : "-997",
+  "nom" : "ES PAS",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Font de sa Cala"
+}, {
+  "id" : "804000001709",
+  "idIne" : "-997",
+  "nom" : "FONT GROSSA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000050",
+  "idIne" : "0701400047",
+  "nom" : "GOYA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "641000400004",
+  "idIne" : "-997",
+  "nom" : "GR-222",
+  "tipusVia" : "GRAN RECORREGUT",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000326",
+  "idIne" : "0701400052",
+  "nom" : "INGENIERO GABRIEL ROCA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000335",
+  "idIne" : "0701400661",
+  "nom" : "JAUME III",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000405",
+  "idIne" : "0701400650",
+  "nom" : "JOAN ALCOVER",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000338",
+  "idIne" : "0701400055",
+  "nom" : "JOAN MARCH",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000059",
+  "idIne" : "0701400060",
+  "nom" : "LEPANTO",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000067",
+  "idIne" : "0701400061",
+  "nom" : "LLUNA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000429",
+  "idIne" : "-997",
+  "nom" : "Ma-15B",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "604000000052",
+  "idIne" : "56435",
+  "nom" : "MA-15",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "604000000234",
+  "idIne" : "56409",
+  "nom" : "MA-4040",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "604000000103",
+  "idIne" : "56321",
+  "nom" : "MA-4042",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "604000000236",
+  "idIne" : "56323",
+  "nom" : "MA-4043",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : "es Carregador"
+}, {
+  "id" : "604000000237",
+  "idIne" : "56412",
+  "nom" : "MA-4050",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Gat"
+}, {
+  "id" : "70140000100",
+  "idIne" : "0701400063",
+  "nom" : "MAJOR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001647",
+  "idIne" : "-997",
+  "nom" : "MAR DE S'HERETAT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001728",
+  "idIne" : "-997",
+  "nom" : "MESQUIDA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000062",
+  "idIne" : "0701400684",
+  "nom" : "MIGJORN",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Els Pelats"
+}, {
+  "id" : "804000001713",
+  "idIne" : "-997",
+  "nom" : "MURTAR",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Polígon Industrial de Capdepera"
+}, {
+  "id" : "804000001766",
+  "idIne" : "-997",
+  "nom" : "N'AGUILÓ",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001716",
+  "idIne" : "-997",
+  "nom" : "N'EMPAU",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001738",
+  "idIne" : "-997",
+  "nom" : "NA BABAIANA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001722",
+  "idIne" : "-997",
+  "nom" : "NA BLANQUERA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001711",
+  "idIne" : "-997",
+  "nom" : "NA VEGUERA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000117",
+  "idIne" : "0701400087",
+  "nom" : "NOU",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000354",
+  "idIne" : "0701400080",
+  "nom" : "PATRÓ BIEL FERRER",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000407",
+  "idIne" : "-997",
+  "nom" : "PINS",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000384",
+  "idIne" : "0701400702",
+  "nom" : "PINS DE SES VENGUES",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Canyamel"
+}, {
+  "id" : "604000020115",
+  "idIne" : "-997",
+  "nom" : "PM-404",
+  "tipusVia" : "CARRETERA",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Mesquida"
+}, {
+  "id" : "804000001727",
+  "idIne" : "-997",
+  "nom" : "PUIG DES BOUS",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001765",
+  "idIne" : "-997",
+  "nom" : "PUTXET",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "70140000360",
+  "idIne" : "0701400091",
+  "nom" : "RAMÓN LLULL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001703",
+  "idIne" : "-997",
+  "nom" : "REIAL",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000034",
+  "idIne" : "0701400481",
+  "nom" : "S'ENTRADOR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Lliteres"
+}, {
+  "id" : "804000001654",
+  "idIne" : "-997",
+  "nom" : "SA VINYA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : "na Taconera"
+}, {
+  "id" : "70140000370",
+  "idIne" : "0701400097",
+  "nom" : "SANT JOAN",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000372",
+  "idIne" : "0701400098",
+  "nom" : "SANT PERE",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000373",
+  "idIne" : "0701400099",
+  "nom" : "SANT ROC",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001715",
+  "idIne" : "-997",
+  "nom" : "SARAGOSSES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000269",
+  "idIne" : "0701400688",
+  "nom" : "SES ÀMFORES",
+  "tipusVia" : "PASSEIG",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001705",
+  "idIne" : "-997",
+  "nom" : "SES CONILLERES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001707",
+  "idIne" : "-997",
+  "nom" : "SET CASES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001735",
+  "idIne" : "-997",
+  "nom" : "SÍNIA DES COIX",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001719",
+  "idIne" : "-997",
+  "nom" : "SIULO",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000143",
+  "idIne" : "0701400107",
+  "nom" : "SOL",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000226",
+  "idIne" : "0701400108",
+  "nom" : "SOLEDAT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001729",
+  "idIne" : "-997",
+  "nom" : "SON BARBASSA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001666",
+  "idIne" : "-997",
+  "nom" : "SON FONT-CAN CARDAIX",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001721",
+  "idIne" : "-997",
+  "nom" : "SON GUILLEM",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001683",
+  "idIne" : "-997",
+  "nom" : "SON MASSANET",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001704",
+  "idIne" : "-997",
+  "nom" : "SON MENGOL",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000424",
+  "idIne" : "-997",
+  "nom" : "SON PORRO",
+  "tipusVia" : "CARRERÓ",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001723",
+  "idIne" : "-997",
+  "nom" : "SON TERRASSA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001639",
+  "idIne" : "-997",
+  "nom" : "SON VADOR",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001720",
+  "idIne" : "-997",
+  "nom" : "SON XONA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001630",
+  "idIne" : "-997",
+  "nom" : "TORRE",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000255",
+  "idIne" : "0701400436",
+  "nom" : "TORRE CEGA",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Cala Rajada"
+}, {
+  "id" : "804000001673",
+  "idIne" : "-997",
+  "nom" : "VELL DE SON FEBRER",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001672",
+  "idIne" : "-997",
+  "nom" : "VELL DE SON TALENT",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000423",
+  "idIne" : "0701400563",
+  "nom" : "VELLA",
+  "tipusVia" : "PLAÇA",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "70140000324",
+  "idIne" : "0701400699",
+  "nom" : "VENT",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "Capdepera"
+}, {
+  "id" : "804000001744",
+  "idIne" : "-997",
+  "nom" : "VINYA",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "804000001754",
+  "idIne" : "-997",
+  "nom" : "VINYASSES",
+  "tipusVia" : "CAMÍ",
+  "idMunicipi" : "07014",
+  "nucli" : " "
+}, {
+  "id" : "70140000173",
+  "idIne" : "0701400589",
+  "nom" : "VORAMAR",
+  "tipusVia" : "CARRER",
+  "idMunicipi" : "07014",
+  "nucli" : "sa Pedruscada"
+} ]
