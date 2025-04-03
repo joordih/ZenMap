@@ -1,8 +1,6 @@
 package dev.joordih.zenmap.sdk.config;
 
 
-import com.google.common.collect.Maps;
-
 import java.util.Collections;
 import java.util.Map;
 import java.util.Optional;

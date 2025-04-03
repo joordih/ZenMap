@@ -20,15 +20,15 @@ public class DatabaseConfiguration extends ConfigSection {
     }
 
     public String getUri() {
-      return config.getString("uri");
+      return config.getString(getKey("uri"));
     }
 
     public String getUsername() {
-      return config.getString("username");
+      return config.getString(getKey("username"));
     }
 
     public String getPassword() {
-      return config.getString("password");
+      return config.getString(getKey("password"));
     }
   }
 }

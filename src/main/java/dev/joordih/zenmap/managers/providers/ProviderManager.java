@@ -2,7 +2,6 @@ package dev.joordih.zenmap.managers.providers;
 
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
-import kotlin.reflect.KClass;
 import lombok.Getter;
 import org.reflections.Reflections;
 import org.reflections.scanners.Scanners;

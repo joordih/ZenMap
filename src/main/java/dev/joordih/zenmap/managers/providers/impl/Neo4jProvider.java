@@ -6,36 +6,40 @@ import dev.joordih.zenmap.managers.providers.ProviderParams;
 import dev.joordih.zenmap.managers.providers.ProviderPriority;
 import lombok.Getter;
 import org.neo4j.driver.AuthTokens;
+import org.neo4j.driver.Driver;
 import org.neo4j.driver.GraphDatabase;
+import org.neo4j.ogm.drivers.bolt.driver.BoltDriver;
+import org.neo4j.ogm.session.SessionFactory;
 
 import static dev.joordih.zenmap.managers.config.impl.DatabaseConfiguration.Neo4jConfiguration;
 
 @Getter
 @ProviderParams(
     name = "Neo4J Database Provider",
-    priority = ProviderPriority.NORMAL
+    priority = ProviderPriority.HIGH
 )
 public class Neo4jProvider implements Provider {
 
-  private final Zenmap instance;
-  private final Neo4jConfiguration neo4jConfiguration;
-
-  public Neo4jProvider() {
-    this.instance = Zenmap.getInstance();
-    this.neo4jConfiguration = instance.getConfigFactory().getDatabaseConfiguration().getNeo4j();
-  }
+  @Getter
+  private static SessionFactory sessionFactory;
+  private final Zenmap instance = Zenmap.getInstance();
+  private final Neo4jConfiguration neo4jConfiguration = instance.getConfigFactory().getDatabaseConfiguration().getNeo4j();
 
   @Override
   public void register() {
-//    final String uri = this.neo4jConfiguration.getUri();
-//    final String username = this.neo4jConfiguration.getUsername();
-//    final String password = this.neo4jConfiguration.getPassword();
-//
-//    try (var driver = GraphDatabase.driver(uri, AuthTokens.basic(username, password))) {
-//      driver.verifyConnectivity();
-//      System.out.println("Connected to Neo4j database.");
-//    } catch (Exception e) {
-//      e.printStackTrace();
-//    }
+    try {
+      final String uri = this.neo4jConfiguration.getUri();
+      final String username = this.neo4jConfiguration.getUsername();
+      final String password = this.neo4jConfiguration.getPassword();
+
+      Driver nativeDriver = GraphDatabase.driver(uri, AuthTokens.basic(username, password));
+      var driver = new BoltDriver(nativeDriver);
+
+      sessionFactory = new SessionFactory(driver, "dev.joordih.zenmap.managers.nodes");
+
+      System.out.println("Connected to Neo4j database.");
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
   }
 }

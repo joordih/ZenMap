@@ -1,6 +1,7 @@
 package dev.joordih.zenmap;
 
 import dev.joordih.zenmap.managers.config.ConfigurationFactory;
+import dev.joordih.zenmap.managers.nodes.NodeManager;
 import dev.joordih.zenmap.managers.providers.ProviderManager;
 import dev.joordih.zenmap.sdk.config.Configuration;
 import lombok.Getter;
@@ -32,9 +33,26 @@ public class Zenmap {
     System.out.println("Instancing and loading providers...");
     this.providerManager = new ProviderManager();
     this.providerManager.loadProviders();
+
+    System.out.println("Instancing and loading nodes...");
+    new NodeManager();
   }
 
   public static void main(String[] args) {
     new Zenmap();
+
+    Thread keepAliveThread = new Thread(() -> {
+      while (true) {
+        try {
+          Thread.sleep(1000);
+        } catch (InterruptedException e) {
+          System.out.println("Cya.");
+          break;
+        }
+      }
+    });
+
+    keepAliveThread.setDaemon(false);
+    keepAliveThread.start();
   }
 }
