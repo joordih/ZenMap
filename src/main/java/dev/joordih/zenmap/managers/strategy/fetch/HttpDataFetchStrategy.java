@@ -97,4 +97,10 @@ public class HttpDataFetchStrategy<T extends Node> implements DataFetchStrategy<
     TypeFactory typeFactory = mapper.getTypeFactory();
     return mapper.readValue(json, typeFactory.constructCollectionType(List.class, clazz));
   }
+
+  @Override
+  public T parseJsonObject(String json) throws IOException {
+    ObjectMapper mapper = JsonUtils.getMAPPER();
+    return mapper.readValue(json, clazz);
+  }
 }

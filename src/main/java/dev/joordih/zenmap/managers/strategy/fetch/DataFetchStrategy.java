@@ -10,4 +10,6 @@ public interface DataFetchStrategy<T extends Node> extends Strategy {
   String fetchData(String url) throws IOException;
 
   List<T> parseJsonList(String json) throws IOException;
+
+  T parseJsonObject(String json) throws IOException;
 }

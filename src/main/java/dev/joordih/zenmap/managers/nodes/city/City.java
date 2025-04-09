@@ -1,4 +1,4 @@
-package dev.joordih.zenmap.managers.nodes.lane;
+package dev.joordih.zenmap.managers.nodes.city;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -12,38 +12,30 @@ import org.neo4j.ogm.annotation.Property;
 @Getter
 @Setter
 @NodeEntity
-public class Lane implements Node {
+public class City implements Node {
 
   @Id
   @Property(name = "id")
   @JsonProperty("id")
   private String id;
-  @JsonProperty("idIne")
-  private String idIne;
   @JsonProperty("nom")
   private String name;
-  @JsonProperty("idMunicipi")
-  private String postalCode;
 
   @SuppressWarnings("unused")
-  public Lane() {
+  public City() {
   }
 
   @SuppressWarnings("unused")
-  public Lane(String id) {
+  public City(String id) {
     this.id = id;
   }
 
   @JsonCreator(mode = JsonCreator.Mode.PROPERTIES)
-  public Lane(
+  public City(
       @JsonProperty("id") String id,
-      @JsonProperty("idIne") String idIne,
-      @JsonProperty("nom") String name,
-      @JsonProperty("idMunicipi") String postalCode
+      @JsonProperty("nom") String name
   ) {
     this.id = id;
-    this.idIne = idIne;
     this.name = name;
-    this.postalCode = postalCode;
   }
 }
