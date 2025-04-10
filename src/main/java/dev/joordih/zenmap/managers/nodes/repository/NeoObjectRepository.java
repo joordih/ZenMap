@@ -1,9 +1,12 @@
 package dev.joordih.zenmap.managers.nodes.repository;
 
+import com.google.common.collect.Lists;
 import dev.joordih.zenmap.managers.nodes.Node;
 import org.neo4j.ogm.session.Session;
 
 import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 import java.util.Map;
 
 public class NeoObjectRepository<T extends Node> implements NodeRepository<T> {
@@ -22,9 +25,11 @@ public class NeoObjectRepository<T extends Node> implements NodeRepository<T> {
   }
 
   @Override
-  public T findByPostalCode(String postalCode) {
-    return session.queryForObject(clazz, "MATCH (n:City {postalCode: $postalCode}) RETURN n",
+  public List<T> findByPostalCode(String postalCode) {
+    List<T> results = Lists.newArrayList();
+    Iterable<T> resultIterations = session.query(clazz, "MATCH (n:Track {postalCode: $postalCode}) RETURN n",
         Map.of("postalCode", postalCode));
+    return resultIterations.spliterator().tryAdvance(results::add) ? results : Collections.emptyList();
   }
 
   @Override

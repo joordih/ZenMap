@@ -2,13 +2,22 @@ package dev.joordih.zenmap.managers.nodes.track;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.DeserializationContext;
+import com.fasterxml.jackson.databind.JsonDeserializer;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import dev.joordih.zenmap.managers.nodes.Node;
 import lombok.Getter;
+import lombok.Setter;
 import org.neo4j.ogm.annotation.Id;
 import org.neo4j.ogm.annotation.NodeEntity;
 import org.neo4j.ogm.annotation.Property;
 
+import java.io.IOException;
+
 @Getter
+@Setter
 @NodeEntity
 public class Track implements Node {
 
@@ -30,6 +39,9 @@ public class Track implements Node {
   private double x;
   @JsonProperty("y")
   private double y;
+  @JsonProperty("geometry")
+  @JsonDeserialize(using = GeometryDeserializer.class)
+  private String geometry;
 
   @SuppressWarnings("unused")
   public Track() {
@@ -49,7 +61,8 @@ public class Track implements Node {
       @JsonProperty("tipusVia") String trackType,
       @JsonProperty("longitud") String longitude,
       @JsonProperty("x") double x,
-      @JsonProperty("y") double y
+      @JsonProperty("y") double y,
+      @JsonProperty("geometry") String geometry
   ) {
     this.id = id;
     this.idIne = idIne;
@@ -59,5 +72,17 @@ public class Track implements Node {
     this.longitude = longitude;
     this.x = x;
     this.y = y;
+    this.geometry = geometry;
+  }
+
+  public static class GeometryDeserializer extends JsonDeserializer<String> {
+    @Override
+    public String deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
+      JsonNode node = p.getCodec().readTree(p);
+      if (node.isArray()) {
+        return node.toString();
+      }
+      return node.asText();
+    }
   }
 }
