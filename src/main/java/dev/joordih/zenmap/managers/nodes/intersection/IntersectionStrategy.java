@@ -135,6 +135,7 @@ public class IntersectionStrategy {
     return !Double.isNaN(coord) && !Double.isInfinite(coord) && Math.abs(coord) >= MIN_COORDINATE_VALUE;
   }
 
+  @SuppressWarnings("unused")
   private void addToCoordinateGroup(Map<String, Set<Track>> coordinateGroups, double x, double y, Track track) {
     double roundedX = Math.round(x / COORDINATE_PRECISION) * COORDINATE_PRECISION;
     double roundedY = Math.round(y / COORDINATE_PRECISION) * COORDINATE_PRECISION;

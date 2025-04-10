@@ -9,6 +9,7 @@ import org.neo4j.ogm.session.Session;
 import java.io.IOException;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class CityStrategy {
 
   private final Neo4jProvider provider;

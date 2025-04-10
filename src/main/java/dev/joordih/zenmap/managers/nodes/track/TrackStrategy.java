@@ -89,6 +89,7 @@ public class TrackStrategy {
     }
   }
 
+  @SuppressWarnings("unused")
   private void processTracksFromLanes(List<Lane> lanes) {
     List<Track> tracksToSave = new ArrayList<>();
     List<Track> tracksToUpdate = new ArrayList<>();
