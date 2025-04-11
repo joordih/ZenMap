@@ -45,7 +45,7 @@ ZenMap is a Java-based application designed to manage and analyze geographical d
 
 4. **Run the application**:
    ```bash
-   mvn exec:java -Dexec.mainClass="dev.joordih.zenmap.Main"
+   mvn exec:java -Dexec.mainClass="dev.joordih.zenmap.Zenmap"
    ```
 
 ## Usage
