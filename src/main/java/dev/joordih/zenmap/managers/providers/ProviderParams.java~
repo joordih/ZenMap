@@ -1,0 +1,6 @@
+package dev.joordih.zenmap.managers.providers;
+
+public @interface ProviderParams {
+  String name();
+  ProviderPriority priority();
+}

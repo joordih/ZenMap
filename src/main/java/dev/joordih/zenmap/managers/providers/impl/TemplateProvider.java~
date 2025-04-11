@@ -1,0 +1,4 @@
+package dev.joordih.zenmap.managers.providers.impl;
+
+public class TemplateProvider {
+}

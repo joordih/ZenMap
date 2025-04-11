@@ -3,7 +3,7 @@ package dev.joordih.zenmap.managers.strategy.fetch;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 import dev.joordih.zenmap.managers.nodes.Node;
-import dev.joordih.zenmap.managers.nodes.repository.NeoObjectRepository;
+import dev.joordih.zenmap.managers.repository.NeoObjectRepository;
 import dev.joordih.zenmap.sdk.json.JsonUtils;
 import lombok.Getter;
 import okhttp3.OkHttpClient;

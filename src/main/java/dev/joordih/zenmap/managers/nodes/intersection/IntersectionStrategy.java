@@ -2,9 +2,10 @@ package dev.joordih.zenmap.managers.nodes.intersection;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.joordih.zenmap.managers.nodes.repository.NeoObjectRepository;
+
 import dev.joordih.zenmap.managers.nodes.track.Track;
 import dev.joordih.zenmap.managers.providers.impl.Neo4jProvider;
+import dev.joordih.zenmap.managers.repository.NeoObjectRepository;
 import lombok.Getter;
 import org.neo4j.ogm.session.Session;
 

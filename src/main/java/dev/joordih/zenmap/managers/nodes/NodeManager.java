@@ -7,10 +7,11 @@ import dev.joordih.zenmap.managers.nodes.intersection.Intersection;
 import dev.joordih.zenmap.managers.nodes.intersection.IntersectionStrategy;
 import dev.joordih.zenmap.managers.nodes.lane.Lane;
 import dev.joordih.zenmap.managers.nodes.lane.LaneStrategy;
-import dev.joordih.zenmap.managers.nodes.repository.NeoObjectRepository;
 import dev.joordih.zenmap.managers.nodes.track.Track;
 import dev.joordih.zenmap.managers.nodes.track.TrackStrategy;
 import dev.joordih.zenmap.managers.providers.impl.Neo4jProvider;
+import dev.joordih.zenmap.managers.repository.NeoObjectRepository;
+
 import org.neo4j.ogm.session.Session;
 
 import java.util.Collection;
@@ -49,9 +50,10 @@ public class NodeManager {
     System.out.println("Intersections: " + intersections.size());
 
     initializeStrategyIfEmpty(cities, () -> new CityStrategy(provider, session), "Cities");
-    initializeStrategyIfEmpty(lanes, () -> new LaneStrategy(provider, session, cities), "Lanes");
+    // initializeStrategyIfEmpty(lanes, () -> new LaneStrategy(provider, session, cities), "Lanes");
+    new LaneStrategy(provider, session, cities);
     initializeStrategyIfEmpty(tracks, () -> new TrackStrategy(provider, session, lanes), "Tracks");
-    // initializeStrategyIfEmpty(intersections, () -> new IntersectionStrategy(provider, session, tracks), "Intersections");
-    new IntersectionStrategy(provider, session, tracks);
+    initializeStrategyIfEmpty(intersections, () -> new IntersectionStrategy(provider, session, tracks), "Intersections");
+    // new IntersectionStrategy(provider, session, tracks);
   }
 }

@@ -1,4 +1,4 @@
-package dev.joordih.zenmap.managers.nodes.repository;
+package dev.joordih.zenmap.managers.repository;
 
 import dev.joordih.zenmap.managers.nodes.Node;
 

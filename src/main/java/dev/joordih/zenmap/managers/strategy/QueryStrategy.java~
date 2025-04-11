@@ -1,0 +1,4 @@
+package dev.joordih.zenmap.managers.strategy;
+
+public interface QueryStrategy {
+}
