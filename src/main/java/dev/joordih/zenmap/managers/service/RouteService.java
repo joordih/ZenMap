@@ -30,6 +30,7 @@ public class RouteService {
         }
     }
 
+    @SuppressWarnings("unused")
     private Track.Direction determineDirectionFromGeometry(Track track) {
         if (track.getGeometryPoints().isEmpty()) {
             return Track.Direction.BIDIRECTIONAL;

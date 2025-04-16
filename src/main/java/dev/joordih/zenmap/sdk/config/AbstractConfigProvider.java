@@ -9,6 +9,7 @@ public abstract class AbstractConfigProvider implements ConfigProvider {
 
   protected Map<String, Object> configurationData = Collections.emptyMap();
 
+  @SuppressWarnings("unchecked")
   protected Optional<Object> getNestedValue(String key, Map<String, Object> dataMap) {
     if (key == null || key.isEmpty() || dataMap == null) {
       return Optional.empty();

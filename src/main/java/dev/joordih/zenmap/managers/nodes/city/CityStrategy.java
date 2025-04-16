@@ -9,10 +9,13 @@ import org.neo4j.ogm.session.Session;
 import java.io.IOException;
 import java.util.List;
 
-@SuppressWarnings("unused")
+@SuppressWarnings("unchecked")
 public class CityStrategy {
 
+  @SuppressWarnings("unused")
   private final Neo4jProvider provider;
+
+  @SuppressWarnings("unused")
   private final Session session;
 
   public CityStrategy(Neo4jProvider provider, Session session) {

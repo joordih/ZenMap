@@ -20,6 +20,7 @@ public class LaneStrategy {
   private final Neo4jProvider provider;
   private final Session session;
 
+  @SuppressWarnings("unchecked")
   public LaneStrategy(Neo4jProvider provider, Session session, Collection<City> cities) {
     this.provider = provider;
     this.session = session;
