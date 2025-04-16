@@ -1,4 +1,0 @@
-package dev.joordih.zenmap.managers.providers;
-
-public interface Provider {
-}

@@ -1,4 +1,0 @@
-package dev.joordih.zenmap.managers.strategy;
-
-public class MunicipalityQuery {
-}
