@@ -3,6 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+tracks_data.json
+
 ### IntelliJ IDEA ###
 .idea/
 .idea/modules.xml
