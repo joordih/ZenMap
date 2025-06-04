@@ -13,6 +13,10 @@ public class ZenmapConfiguration extends ConfigSection {
     return new ZenmapServerConfig(config);
   }
 
+  public String getTracksDataFile() {
+    return config.getString(getKey("tracksDataFile"));
+  }
+
   public static class ZenmapServerConfig extends ConfigSection {
     public ZenmapServerConfig(Configuration config) {
       super(config, "zenmap.server");

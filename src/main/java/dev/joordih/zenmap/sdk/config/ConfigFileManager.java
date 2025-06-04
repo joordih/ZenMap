@@ -33,7 +33,8 @@ public class ConfigFileManager {
           server:
             host: 0.0.0.0
             port: 8080
-        
+          tracksDataFile: tracks_data.json
+
         database:
           neo4j:
             uri: neo4j://localhost:7687

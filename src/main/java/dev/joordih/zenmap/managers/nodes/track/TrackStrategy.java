@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import dev.joordih.zenmap.managers.nodes.lane.Lane;
+import dev.joordih.zenmap.Zenmap;
 import dev.joordih.zenmap.managers.providers.impl.Neo4jProvider;
 import dev.joordih.zenmap.managers.repository.NeoObjectRepository;
 import dev.joordih.zenmap.managers.strategy.StrategyFactory;
@@ -32,7 +33,9 @@ import java.util.stream.Collectors;
 @Getter
 public class TrackStrategy {
   private static final Logger LOGGER = Logger.getLogger(TrackStrategy.class.getName());
-  private static final String TRACKS_JSON_FILE = "tracks_data.json";
+
+  private static final String DEFAULT_TRACKS_JSON_FILE = "tracks_data.json";
+  private final String tracksDataFile;
 
   private final Neo4jProvider provider;
   private final Session session;
@@ -42,6 +45,16 @@ public class TrackStrategy {
     this.provider = provider;
     this.session = session;
     this.trackRepository = new NeoObjectRepository<>(session, Track.class);
+
+    String configPath = Zenmap.getInstance()
+        .getConfigFactory()
+        .getZenmapConfiguration()
+        .getTracksDataFile();
+    if (configPath == null || configPath.isBlank()) {
+      this.tracksDataFile = DEFAULT_TRACKS_JSON_FILE;
+    } else {
+      this.tracksDataFile = configPath;
+    }
 
     LOGGER.info("------------------------------");
     LOGGER.info("Loading tracks...");
@@ -61,7 +74,13 @@ public class TrackStrategy {
 
   private void importTracksFromJson() {
     try {
-      File jsonFile = new File(TRACKS_JSON_FILE);
+      Path filePath = Paths.get(tracksDataFile);
+      if (!Files.exists(filePath)) {
+        LOGGER.severe("Tracks data file not found at: " + filePath.toAbsolutePath());
+        return;
+      }
+
+      File jsonFile = filePath.toFile();
       ObjectMapper objectMapper = JsonUtils.getMAPPER();
 
       JsonNode rootNode = objectMapper.readTree(jsonFile);
@@ -210,7 +229,7 @@ public class TrackStrategy {
 
     try {
       Gson gson = new GsonBuilder().setPrettyPrinting().create();
-      Path filePath = Paths.get(TRACKS_JSON_FILE);
+      Path filePath = Paths.get(tracksDataFile);
 
       List<Track> allTracks = new ArrayList<>(tracks);
       if (Files.exists(filePath)) {
