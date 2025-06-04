@@ -26,10 +26,15 @@ public class NeoObjectRepository<T extends Node> implements NodeRepository<T> {
 
   @Override
   public List<T> findByPostalCode(String postalCode) {
+    String label = clazz.getSimpleName();
+    Iterable<T> resultIterations = session.query(
+        clazz,
+        String.format("MATCH (n:%s {postalCode: $postalCode}) RETURN n", label),
+        Map.of("postalCode", postalCode)
+    );
     List<T> results = Lists.newArrayList();
-    Iterable<T> resultIterations = session.query(clazz, "MATCH (n:Track {postalCode: $postalCode}) RETURN n",
-        Map.of("postalCode", postalCode));
-    return resultIterations.spliterator().tryAdvance(results::add) ? results : Collections.emptyList();
+    resultIterations.forEach(results::add);
+    return results;
   }
 
   @Override
