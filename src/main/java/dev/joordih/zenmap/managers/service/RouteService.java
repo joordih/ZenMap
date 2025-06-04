@@ -16,6 +16,16 @@ public class RouteService {
         this.session = Neo4jProvider.getSessionFactory().openSession();
     }
 
+    /**
+     * Additional constructor used mainly for testing so a custom session can
+     * be supplied instead of opening a new one from {@link Neo4jProvider}.
+     *
+     * @param session mocked or preconfigured session instance
+     */
+    public RouteService(Session session) {
+        this.session = session;
+    }
+
     public void updateTrackDirectionsFromGeometry() {
         String query = """
             MATCH (t:Track)
