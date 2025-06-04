@@ -11,13 +11,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import org.neo4j.ogm.session.Session;
 
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.X509TrustManager;
 import java.io.IOException;
-import java.security.SecureRandom;
-import java.security.cert.X509Certificate;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -31,47 +25,19 @@ public class HttpDataFetchStrategy<T extends Node> implements DataFetchStrategy<
   private final NeoObjectRepository<T> repository;
 
   public HttpDataFetchStrategy(Session session, Class<T> clazz) {
+    this(session, clazz, new OkHttpClient.Builder());
+  }
+
+  public HttpDataFetchStrategy(Session session, Class<T> clazz, OkHttpClient.Builder builder) {
     this.session = session;
     this.clazz = clazz;
     this.repository = new NeoObjectRepository<>(session, clazz);
 
-    OkHttpClient.Builder builder = new OkHttpClient.Builder()
+    this.client = builder
         .connectTimeout(30, TimeUnit.SECONDS)
         .readTimeout(30, TimeUnit.SECONDS)
-        .writeTimeout(30, TimeUnit.SECONDS);
-
-    try {
-      final TrustManager[] trustAllCerts = new TrustManager[]{
-          new X509TrustManager() {
-            @Override
-            public void checkClientTrusted(X509Certificate[] chain, String authType) {
-            }
-
-            @Override
-            public void checkServerTrusted(X509Certificate[] chain, String authType) {
-            }
-
-            @Override
-            public X509Certificate[] getAcceptedIssuers() {
-              return new X509Certificate[0];
-            }
-          }
-      };
-
-      final SSLContext sslContext = SSLContext.getInstance("TLS");
-      sslContext.init(null, trustAllCerts, new SecureRandom());
-
-      final SSLSocketFactory sslSocketFactory = sslContext.getSocketFactory();
-
-      builder.sslSocketFactory(sslSocketFactory, (X509TrustManager) trustAllCerts[0])
-          .hostnameVerifier((hostname, sslSession) -> true);
-
-    } catch (Exception e) {
-      System.err.println("Error configurando SSL para el DataProvider: " + e.getMessage());
-      e.printStackTrace();
-    }
-
-    this.client = builder.build();
+        .writeTimeout(30, TimeUnit.SECONDS)
+        .build();
   }
 
   @Override
