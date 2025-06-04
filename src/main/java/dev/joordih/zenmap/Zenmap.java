@@ -17,6 +17,8 @@ public class Zenmap {
 
   private final ProviderManager providerManager;
 
+  private final NodeManager nodeManager;
+
 
   public Zenmap() {
     instance = this;
@@ -35,11 +37,16 @@ public class Zenmap {
     this.providerManager.loadProviders();
 
     System.out.println("Instancing and loading nodes...");
-    new NodeManager();
+    this.nodeManager = new NodeManager();
+  }
+
+  public void runTests() {
+    this.nodeManager.runAllTests();
   }
 
   public static void main(String[] args) {
-    new Zenmap();
+    Zenmap app = new Zenmap();
+    app.runTests();
 
     Thread keepAliveThread = new Thread(() -> {
       while (true) {
