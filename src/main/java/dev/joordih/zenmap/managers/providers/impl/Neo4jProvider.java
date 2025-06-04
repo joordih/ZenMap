@@ -10,6 +10,8 @@ import org.neo4j.driver.Driver;
 import org.neo4j.driver.GraphDatabase;
 import org.neo4j.ogm.drivers.bolt.driver.BoltDriver;
 import org.neo4j.ogm.session.SessionFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static dev.joordih.zenmap.managers.config.impl.DatabaseConfiguration.Neo4jConfiguration;
 
@@ -19,6 +21,8 @@ import static dev.joordih.zenmap.managers.config.impl.DatabaseConfiguration.Neo4
     priority = ProviderPriority.HIGH
 )
 public class Neo4jProvider implements Provider {
+
+  private static final Logger LOGGER = LoggerFactory.getLogger(Neo4jProvider.class);
 
   @Getter
   private static SessionFactory sessionFactory;
@@ -37,7 +41,7 @@ public class Neo4jProvider implements Provider {
 
       sessionFactory = new SessionFactory(driver, "dev.joordih.zenmap.managers.nodes");
 
-      System.out.println("Connected to Neo4j database.");
+      LOGGER.info("Connected to Neo4j database.");
     } catch (Exception e) {
       e.printStackTrace();
     }

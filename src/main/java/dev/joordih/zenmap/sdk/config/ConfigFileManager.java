@@ -2,6 +2,8 @@ package dev.joordih.zenmap.sdk.config;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -10,6 +12,8 @@ import java.nio.file.Paths;
 @Getter
 @Setter
 public class ConfigFileManager {
+
+  private static final Logger LOGGER = LoggerFactory.getLogger(ConfigFileManager.class);
 
   private final String configurationPath;
 
@@ -42,6 +46,6 @@ public class ConfigFileManager {
         """;
 
     Files.writeString(Paths.get(configurationPath), defaultConfig);
-    System.out.println("Configuration file created at: " + configurationPath);
+    LOGGER.info("Configuration file created at: {}", configurationPath);
   }
 }

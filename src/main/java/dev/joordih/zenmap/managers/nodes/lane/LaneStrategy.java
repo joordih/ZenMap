@@ -8,6 +8,8 @@ import dev.joordih.zenmap.managers.strategy.fetch.DataFetchStrategy;
 import dev.joordih.zenmap.managers.strategy.fetch.HttpDataFetchStrategy;
 import lombok.Getter;
 import org.neo4j.ogm.session.Session;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -17,6 +19,8 @@ import java.util.stream.Collectors;
 @Getter
 public class LaneStrategy {
 
+  private static final Logger LOGGER = LoggerFactory.getLogger(LaneStrategy.class);
+
   private final Neo4jProvider provider;
   private final Session session;
 
@@ -25,9 +29,9 @@ public class LaneStrategy {
     this.provider = provider;
     this.session = session;
 
-    System.out.println("------------------------------");
-    System.out.println("Loading lanes...");
-    System.out.println("------------------------------");
+    LOGGER.info("------------------------------");
+    LOGGER.info("Loading lanes...");
+    LOGGER.info("------------------------------");
 
     HttpDataFetchStrategy<Lane> laneFetchStrategy = new HttpDataFetchStrategy<>(session, Lane.class);
 
@@ -75,7 +79,7 @@ public class LaneStrategy {
       for (int x = 0; x < lanes.size(); x++) {
         Lane lane = lanes.get(x);
         session.save(lane);
-        System.out.println("Saved lane (Postal Code: " + lane.getPostalCode() + "): " + x);
+        LOGGER.debug("Saved lane (Postal Code: {}) : {}", lane.getPostalCode(), x);
       }
     } catch (Exception e) {
       e.printStackTrace();

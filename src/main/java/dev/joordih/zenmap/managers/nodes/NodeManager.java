@@ -14,12 +14,16 @@ import dev.joordih.zenmap.managers.repository.NeoObjectRepository;
 import dev.joordih.zenmap.managers.service.RouteService;
 
 import org.neo4j.ogm.session.Session;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
 public class NodeManager {
+
+  private static final Logger LOGGER = LoggerFactory.getLogger(NodeManager.class);
 
   private final NeoObjectRepository<Lane> laneRepository;
   private final NeoObjectRepository<City> cityRepository;
@@ -30,7 +34,7 @@ public class NodeManager {
   private void initializeStrategyIfEmpty(Collection<?> collection, Runnable strategyInitializer, String strategyName) {
     if (collection.isEmpty()) {
       strategyInitializer.run();
-      System.out.println(strategyName + " initialized.");
+      LOGGER.info("{} initialized.", strategyName);
     }
   }
 
@@ -48,10 +52,10 @@ public class NodeManager {
     Collection<Track> tracks = Optional.ofNullable(this.trackRepository.findAll()).orElse(Lists.newArrayList());
     Collection<Intersection> intersections = Optional.ofNullable(this.intersectionRepository.findAll()).orElse(Lists.newArrayList());
 
-    System.out.println("Cities: " + cities.size());
-    System.out.println("Lanes: " + lanes.size());
-    System.out.println("Tracks: " + tracks.size());
-    System.out.println("Intersections: " + intersections.size());
+    LOGGER.info("Cities: {}", cities.size());
+    LOGGER.info("Lanes: {}", lanes.size());
+    LOGGER.info("Tracks: {}", tracks.size());
+    LOGGER.info("Intersections: {}", intersections.size());
 
     initializeStrategyIfEmpty(cities, () -> new CityStrategy(provider, session), "Cities");
     initializeStrategyIfEmpty(lanes, () -> new LaneStrategy(provider, session, cities), "Lanes");
@@ -62,63 +66,64 @@ public class NodeManager {
   }
 
   public void testUpdateDirections() {
-    System.out.println("Actualizando direcciones de las calles basado en geometría...");
+    LOGGER.info("Actualizando direcciones de las calles basado en geometría...");
     routeService.updateTrackDirectionsFromGeometry();
-    System.out.println("Direcciones actualizadas.");
+    LOGGER.info("Direcciones actualizadas.");
 
     Collection<Track> tracks = trackRepository.findAll();
-    System.out.println("\nEstadísticas de direcciones:");
+    LOGGER.info("\nEstadísticas de direcciones:");
     long bidirectional = tracks.stream().filter(t -> t.getDirection() == Track.Direction.BIDIRECTIONAL).count();
     long forward = tracks.stream().filter(t -> t.getDirection() == Track.Direction.FORWARD).count();
     long backward = tracks.stream().filter(t -> t.getDirection() == Track.Direction.BACKWARD).count();
 
-    System.out.println("- Calles bidireccionales: " + bidirectional);
-    System.out.println("- Calles dirección forward: " + forward);
-    System.out.println("- Calles dirección backward: " + backward);
+    LOGGER.info("- Calles bidireccionales: {}", bidirectional);
+    LOGGER.info("- Calles dirección forward: {}", forward);
+    LOGGER.info("- Calles dirección backward: {}", backward);
   }
 
   public void testFindRoute(String startStreet, String endStreet) {
-    System.out.println("\nBuscando ruta entre '" + startStreet + "' y '" + endStreet + "'...");
+    LOGGER.info("\nBuscando ruta entre '{}' y '{}'...", startStreet, endStreet);
     
     List<Track> shortestPath = routeService.findShortestPath(startStreet, endStreet);
     if (shortestPath.isEmpty()) {
-      System.out.println("No se encontró ruta directa.");
+      LOGGER.info("No se encontró ruta directa.");
     } else {
-      System.out.println("\nRuta más corta encontrada:");
+      LOGGER.info("\nRuta más corta encontrada:");
       printRoute(shortestPath);
     }
 
     List<Track> alternativeRoutes = routeService.findAlternativeRoutes(startStreet, endStreet);
     if (!alternativeRoutes.isEmpty()) {
-      System.out.println("\nRutas alternativas encontradas: " + alternativeRoutes.size());
+      LOGGER.info("\nRutas alternativas encontradas: {}", alternativeRoutes.size());
       for (int i = 0; i < alternativeRoutes.size(); i++) {
-        System.out.println("\nRuta alternativa " + (i + 1) + ":");
+        LOGGER.info("\nRuta alternativa {}:", i + 1);
         printRoute(List.of(alternativeRoutes.get(i)));
       }
     } else {
-      System.out.println("No se encontraron rutas alternativas.");
+      LOGGER.info("No se encontraron rutas alternativas.");
     }
   }
 
   private void printRoute(List<Track> route) {
     double totalDistance = 0;
     for (Track track : route) {
-      System.out.println("- " + track.getName() + 
-          " (Dir: " + track.getDirection() + 
-          ", Dist: " + String.format("%.2f", track.getDistance()) + "m)");
+      LOGGER.info("- {} (Dir: {}, Dist: {}m)",
+          track.getName(),
+          track.getDirection(),
+          String.format("%.2f", track.getDistance()));
       totalDistance += track.getDistance();
     }
-    System.out.println("Distancia total: " + String.format("%.2f", totalDistance) + "m");
+    LOGGER.info("Distancia total: {}m", String.format("%.2f", totalDistance));
   }
 
   public void testAddAlternativeRoute(String trackId1, String trackId2) {
-    System.out.println("\nAñadiendo ruta alternativa entre tracks " + trackId1 + " y " + trackId2);
+    LOGGER.info("\nAñadiendo ruta alternativa entre tracks {} y {}", trackId1, trackId2);
     routeService.addAlternativeRoute(trackId1, trackId2);
-    System.out.println("Ruta alternativa añadida.");
+    LOGGER.info("Ruta alternativa añadida.");
   }
 
   public void runAllTests() {
-    System.out.println("Iniciando pruebas de rutas...\n");
+    LOGGER.info("Iniciando pruebas de rutas...\n");
     
     testUpdateDirections();
     
@@ -126,6 +131,6 @@ public class NodeManager {
     
     testAddAlternativeRoute("TRACK-1", "TRACK-2");
     
-    System.out.println("\nPruebas completadas.");
+    LOGGER.info("\nPruebas completadas.");
   }
 }

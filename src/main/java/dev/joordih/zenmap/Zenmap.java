@@ -5,9 +5,13 @@ import dev.joordih.zenmap.managers.nodes.NodeManager;
 import dev.joordih.zenmap.managers.providers.ProviderManager;
 import dev.joordih.zenmap.sdk.config.Configuration;
 import lombok.Getter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Getter
 public class Zenmap {
+
+  private static final Logger LOGGER = LoggerFactory.getLogger(Zenmap.class);
 
   @Getter
   private static Zenmap instance;
@@ -24,17 +28,17 @@ public class Zenmap {
     this.config = Configuration.getInstance();
     this.configFactory = new ConfigurationFactory(config);
 
-    System.out.println("Mapping zenmap configuration...");
+    LOGGER.info("Mapping zenmap configuration...");
     this.configFactory.getZenmapConfiguration();
 
-    System.out.println("Mapping database configuration...");
+    LOGGER.info("Mapping database configuration...");
     this.configFactory.getDatabaseConfiguration();
 
-    System.out.println("Instancing and loading providers...");
+    LOGGER.info("Instancing and loading providers...");
     this.providerManager = new ProviderManager();
     this.providerManager.loadProviders();
 
-    System.out.println("Instancing and loading nodes...");
+    LOGGER.info("Instancing and loading nodes...");
     new NodeManager();
   }
 
@@ -46,7 +50,7 @@ public class Zenmap {
         try {
           Thread.sleep(1000);
         } catch (InterruptedException e) {
-          System.out.println("Cya.");
+          LOGGER.info("Cya.");
           break;
         }
       }

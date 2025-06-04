@@ -5,12 +5,16 @@ import dev.joordih.zenmap.managers.strategy.StrategyFactory;
 import dev.joordih.zenmap.managers.strategy.fetch.DataFetchStrategy;
 import dev.joordih.zenmap.managers.strategy.fetch.HttpDataFetchStrategy;
 import org.neo4j.ogm.session.Session;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class CityStrategy {
+
+  private static final Logger LOGGER = LoggerFactory.getLogger(CityStrategy.class);
 
   @SuppressWarnings("unused")
   private final Neo4jProvider provider;
@@ -22,9 +26,9 @@ public class CityStrategy {
     this.provider = provider;
     this.session = session;
 
-    System.out.println("------------------------------");
-    System.out.println("Loading cities...");
-    System.out.println("------------------------------");
+    LOGGER.info("------------------------------");
+    LOGGER.info("Loading cities...");
+    LOGGER.info("------------------------------");
 
     HttpDataFetchStrategy<City> cityFetchStrategy = new HttpDataFetchStrategy<>(session, City.class);
 
@@ -64,7 +68,7 @@ public class CityStrategy {
       for (int i = 0; i < cities.size(); i++) {
         City city = cities.get(i);
         session.save(city);
-        System.out.println("Saved city: " + i);
+        LOGGER.debug("Saved city: {}", i);
       }
     } catch (Exception e) {
       e.printStackTrace();

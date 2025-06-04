@@ -5,6 +5,8 @@ import com.google.common.collect.Sets;
 import lombok.Getter;
 import org.reflections.Reflections;
 import org.reflections.scanners.Scanners;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.lang.reflect.Constructor;
 import java.util.Comparator;
@@ -15,6 +17,8 @@ import java.util.stream.Collectors;
 
 @Getter
 public class ProviderManager {
+
+  private static final Logger LOGGER = LoggerFactory.getLogger(ProviderManager.class);
 
   private final Set<Provider> providers = Sets.newHashSet();
   private final Map<Provider, ProviderParams> providerParams = Maps.newHashMap();
@@ -30,7 +34,7 @@ public class ProviderManager {
 
     for (Class<? extends Provider> clazz : providerClasses) {
       if (!clazz.isAnnotationPresent(ProviderParams.class)) {
-        System.out.println("Provider " + clazz.getName() + " is missing @ProviderParams annotation");
+        LOGGER.warn("Provider {} is missing @ProviderParams annotation", clazz.getName());
         continue;
       }
 
@@ -55,11 +59,10 @@ public class ProviderManager {
 
         provider.register();
 
-        System.out.println("Registered provider: " + provider.getClass().getName() + " (" + providerParams.name() + ")" +
-            " with priority " + providerParams.priority());
+        LOGGER.info("Registered provider: {} ({}) with priority {}",
+            provider.getClass().getName(), providerParams.name(), providerParams.priority());
       } catch (Exception exception) {
-        exception.printStackTrace();
-        System.out.println("Failed to register provider: " + clazz.getName());
+        LOGGER.error("Failed to register provider: {}", clazz.getName(), exception);
       }
     }
 
@@ -94,10 +97,9 @@ public class ProviderManager {
     for (Provider provider : sortedProviders) {
       try {
         provider.unregister();
-        System.out.println("Unregistered provider: " + provider.getClass().getName());
+        LOGGER.info("Unregistered provider: {}", provider.getClass().getName());
       } catch (Exception e) {
-        e.printStackTrace();
-        System.out.println("Failed to unregister provider: " + provider.getClass().getName());
+        LOGGER.error("Failed to unregister provider: {}", provider.getClass().getName(), e);
       }
     }
 
